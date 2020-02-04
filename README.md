@@ -6,7 +6,7 @@ My first name is Mukhammadnozim (I go by **_Nozim_**), last name is **__Islamov_
 
 Assignments finished so far:
 |Assignment       |Progress      |
-|-----------------|--------------|
+| --- | --- |
 |Assignment 1     |![alt text][inprogress]|
 |Assignment 2     |![alt text][notstarted]|
 |Assignment 3     |![alt text][notstarted]|
