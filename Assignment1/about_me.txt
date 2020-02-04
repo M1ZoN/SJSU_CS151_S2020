@@ -1,0 +1,9 @@
+             Name: Nozim Islamov
+       Student ID: 014294150
+            Major: Computer Science
+    Email Address: mukhammadnozim.islamov@sjsu.edu
+    Year of study: Undergraduate/Junior
+Graduating Senior: No
+  Repeating Class: No
+ Other CS classes: CS49J, CS154, CS174
+ 
