@@ -5,8 +5,10 @@ This repository is created for tracking progress for various projects and collab
 My first name is Mukhammadnozim (I go by **_Nozim_**), last name is **__Islamov__**.
 
 Assignments finished so far:
+
+
 Assignment | Progress |
-:---: | :---: |
+:--------: | :------: |
 Assignment 1 | :clipboard:     |
 Assignment 2 | :no_entry_sign: |
 Assignment 3 | :no_entry_sign: |
