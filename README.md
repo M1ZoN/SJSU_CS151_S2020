@@ -18,5 +18,5 @@ Assignment 6 | :no_entry_sign: |
 Assignment 7 | :no_entry_sign: |
 Assignment 8 | :no_entry_sign: |
 
-Teacher: <a href="https://github.com/ynewton">Yulia Newton</a>
+Teacher: <a href="https://github.com/ynewton">Yulia Newton</a><br>
 Grader:  <a href="https://github.com/AkshayKajale">Akshay Kajale</a>
