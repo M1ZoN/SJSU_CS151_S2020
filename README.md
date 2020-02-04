@@ -9,14 +9,14 @@ Assignments finished so far:
 
 Assignment | Progress |
 :--------: | :------: |
-Assignment 1 | :clipboard:     |
-Assignment 2 | :no_entry_sign: |
-Assignment 3 | :no_entry_sign: |
-Assignment 4 | :no_entry_sign: |
-Assignment 5 | :no_entry_sign: |
-Assignment 6 | :no_entry_sign: |
-Assignment 7 | :no_entry_sign: |
-Assignment 8 | :no_entry_sign: |
+Assignment 1 | :white_check_mark: |
+Assignment 2 | :clipboard:        |
+Assignment 3 | :no_entry_sign:    |
+Assignment 4 | :no_entry_sign:    |
+Assignment 5 | :no_entry_sign:    |
+Assignment 6 | :no_entry_sign:    |
+Assignment 7 | :no_entry_sign:    |
+Assignment 8 | :no_entry_sign:    |
 
 Teacher: <a href="https://github.com/ynewton">Yulia Newton</a><br>
 Grader:  <a href="https://github.com/AkshayKajale">Akshay Kajale</a>
