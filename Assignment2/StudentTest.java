@@ -1,32 +1,25 @@
 package com.company;
 
-import java.util.Vector;
+import java.util.HashMap;
+import java.util.Map;
 
 public class StudentTest {
     public static void main(String[] args) {
         Student student = new Student("John", "Smith", 20, 3.6, "Computer Science", "School of Computer Science department");
-        Vector<Vector<String>>schedule = new Vector<>();
-        Vector<String>daySchedule = new Vector<>();
 
-        daySchedule.add("CS151");
-        daySchedule.add("CS100W");
-        schedule.add(daySchedule);
-        daySchedule.clear();
+        Map<String, String[]>schedule = new HashMap<>();
 
-        daySchedule.add("CS49J");
-        schedule.add(daySchedule);
-        daySchedule.clear();
+        String mon[] = {"CS151", "CS100W"};
+        String tue[] = {"CS49J"};
+        String wed[] = {"MATH142", "CS123A"};
+        String thu[] = {"KIN2A", "PHIL10"};
+
+        schedule.put("Monday", mon);
+        schedule.put("Tuesday", tue);
+        schedule.put("Wednesday", wed);
+        schedule.put("Thursday", thu);
 
 
-        daySchedule.add("MATH142");
-        daySchedule.add("CS123A");
-        schedule.add(daySchedule);
-        daySchedule.clear();
-
-        daySchedule.add("KIN2A");
-        daySchedule.add("PHIL10");
-        schedule.add(daySchedule);
-        daySchedule.clear();
 
         Student.Course course = student.new Course(schedule);
         course.printSchedule();
