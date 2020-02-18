@@ -1,0 +1,7 @@
+1. Int is a data type, Integer is a class. => int stores 32 bit. Integer wraps an int data type.
+2. Int stores an integer value in a memory. Integer helps to convert that int into object and vice versa.
+3. Integer is more flexible, it allows to parse string to get an int value and so much more not just storing a value.
+   3.1  Integer could be used to convert to other bases, such as hex and oct. int cannot do that.
+   3.2  Type casting works with Integer not with int.
+4. int is 4 bytes, Integer is 16 bytes.
+5. Integer has much more built in methods, such as reverse()...
