@@ -1,6 +1,8 @@
 package com.company;
 
-import java.util.Vector;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class Student {
 
@@ -75,32 +77,31 @@ public class Student {
     private String department = "";
 
     public class Course{
-        Course(Vector<Vector<String>>schedule){
+
+        Course(Map<String, String[]>schedule){
             this.schedule = schedule;
         }
 
-        public Vector<Vector<String>> getSchedule() {
+        public Map<String, String[]> getSchedule() {
             return schedule;
         }
 
-        public void setSchedule(Vector<Vector<String>> schedule) {
+        public void setSchedule(Map<String, String[]> schedule) {
             this.schedule = schedule;
         }
 
         void printSchedule() {
-            for (int i = 0; i < schedule.size(); i++) {
-                System.out.print(days[i] + ":");
-                if (!schedule.elementAt(i).isEmpty())
-                    for (int j = 0; j < schedule.elementAt(i).size(); j++) {
-                        System.out.print(" " + schedule.elementAt(i).elementAt(j));
-                    }
-                else
-                    System.out.print(" NO CLASSES");
+            Set< Map.Entry< String,String[]> > set = this.schedule.entrySet();
+
+            for (Map.Entry< String,String[]> oneDay : set)
+            {
+                System.out.print(oneDay.getKey()+":");
+                for (int i = 0; i < oneDay.getValue().length; i++)
+                    System.out.print(" " + oneDay.getValue()[i]);
                 System.out.println();
             }
         }
-        private Vector<Vector<String>>schedule = new Vector<>();
-        private String days[] = {"Monday","Tuesday", "Wednesday", "Thursday", "Friday"};
 
+        private Map<String, String[]>schedule = new HashMap<>();
     }
 }
