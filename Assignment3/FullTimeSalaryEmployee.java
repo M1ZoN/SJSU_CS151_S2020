@@ -17,6 +17,14 @@ public class FullTimeSalaryEmployee extends Employee{
 
     private double compensation = 0;
 
+    public void setCompensation(double compensation) {
+        this.compensation = compensation;
+    }
+    
+    public double getCompensation() {
+        return compensation;
+    }
+    
     public double computePay(double week) {
         return compensation * week;
     }
