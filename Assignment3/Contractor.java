@@ -18,6 +18,14 @@ public class Contractor extends Employee {
     public double computePay(double hours) {
         return (hours * rate);
     }
+    
+    public void setRate(double rate) {
+        this.rate = rate;
+    }
+    
+    public double getRate() {
+        return rate;
+    }
 
     @Override
     public String toString() {
